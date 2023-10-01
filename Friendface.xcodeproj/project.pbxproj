@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54A814D32AC8D29B00734EDD /* FriendFacenewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814D22AC8D29B00734EDD /* FriendFacenewApp.swift */; };
+		54A814D32AC8D29B00734EDD /* FriendFaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814D22AC8D29B00734EDD /* FriendFaceApp.swift */; };
 		54A814D52AC8D29B00734EDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814D42AC8D29B00734EDD /* ContentView.swift */; };
 		54A814D72AC8D29C00734EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A814D62AC8D29C00734EDD /* Assets.xcassets */; };
 		54A814DA2AC8D29C00734EDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A814D92AC8D29C00734EDD /* Preview Assets.xcassets */; };
+		54A814E12AC8D2BD00734EDD /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814E02AC8D2BD00734EDD /* UserView.swift */; };
+		54A814E32AC8D2CF00734EDD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814E22AC8D2CF00734EDD /* DataController.swift */; };
+		54A814E52AC8D2E300734EDD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814E42AC8D2E300734EDD /* User.swift */; };
+		54A814E72AC8D2EA00734EDD /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814E62AC8D2EA00734EDD /* Friend.swift */; };
+		54A814EA2AC8D33200734EDD /* Friendface.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54A814E82AC8D33200734EDD /* Friendface.xcdatamodeld */; };
+		54A814FA2AC8E45800734EDD /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814F62AC8E45800734EDD /* CachedUser+CoreDataClass.swift */; };
+		54A814FB2AC8E45800734EDD /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814F72AC8E45800734EDD /* CachedUser+CoreDataProperties.swift */; };
+		54A814FC2AC8E45800734EDD /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814F82AC8E45800734EDD /* CachedFriend+CoreDataClass.swift */; };
+		54A814FD2AC8E45800734EDD /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A814F92AC8E45800734EDD /* CachedFriend+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54A814CF2AC8D29B00734EDD /* FriendFacenew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFacenew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A814D22AC8D29B00734EDD /* FriendFacenewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFacenewApp.swift; sourceTree = "<group>"; };
+		54A814CF2AC8D29B00734EDD /* Friendface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A814D22AC8D29B00734EDD /* FriendFaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceApp.swift; sourceTree = "<group>"; };
 		54A814D42AC8D29B00734EDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54A814D62AC8D29C00734EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A814D92AC8D29C00734EDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54A814E02AC8D2BD00734EDD /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		54A814E22AC8D2CF00734EDD /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		54A814E42AC8D2E300734EDD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		54A814E62AC8D2EA00734EDD /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		54A814E92AC8D33200734EDD /* Friendface.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendface.xcdatamodel; sourceTree = "<group>"; };
+		54A814F62AC8E45800734EDD /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		54A814F72AC8E45800734EDD /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		54A814F82AC8E45800734EDD /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		54A814F92AC8E45800734EDD /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +53,7 @@
 		54A814C62AC8D29B00734EDD = {
 			isa = PBXGroup;
 			children = (
-				54A814D12AC8D29B00734EDD /* FriendFacenew */,
+				54A814D12AC8D29B00734EDD /* Friendface */,
 				54A814D02AC8D29B00734EDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +61,29 @@
 		54A814D02AC8D29B00734EDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54A814CF2AC8D29B00734EDD /* FriendFacenew.app */,
+				54A814CF2AC8D29B00734EDD /* Friendface.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54A814D12AC8D29B00734EDD /* FriendFacenew */ = {
+		54A814D12AC8D29B00734EDD /* Friendface */ = {
 			isa = PBXGroup;
 			children = (
-				54A814D22AC8D29B00734EDD /* FriendFacenewApp.swift */,
+				54A814F62AC8E45800734EDD /* CachedUser+CoreDataClass.swift */,
+				54A814F72AC8E45800734EDD /* CachedUser+CoreDataProperties.swift */,
+				54A814F82AC8E45800734EDD /* CachedFriend+CoreDataClass.swift */,
+				54A814F92AC8E45800734EDD /* CachedFriend+CoreDataProperties.swift */,
+				54A814D22AC8D29B00734EDD /* FriendFaceApp.swift */,
 				54A814D42AC8D29B00734EDD /* ContentView.swift */,
+				54A814E02AC8D2BD00734EDD /* UserView.swift */,
+				54A814E22AC8D2CF00734EDD /* DataController.swift */,
+				54A814E42AC8D2E300734EDD /* User.swift */,
+				54A814E62AC8D2EA00734EDD /* Friend.swift */,
+				54A814E82AC8D33200734EDD /* Friendface.xcdatamodeld */,
 				54A814D62AC8D29C00734EDD /* Assets.xcassets */,
 				54A814D82AC8D29C00734EDD /* Preview Content */,
 			);
-			path = FriendFacenew;
+			path = Friendface;
 			sourceTree = "<group>";
 		};
 		54A814D82AC8D29C00734EDD /* Preview Content */ = {
@@ -70,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54A814CE2AC8D29B00734EDD /* FriendFacenew */ = {
+		54A814CE2AC8D29B00734EDD /* Friendface */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54A814DD2AC8D29C00734EDD /* Build configuration list for PBXNativeTarget "FriendFacenew" */;
+			buildConfigurationList = 54A814DD2AC8D29C00734EDD /* Build configuration list for PBXNativeTarget "Friendface" */;
 			buildPhases = (
 				54A814CB2AC8D29B00734EDD /* Sources */,
 				54A814CC2AC8D29B00734EDD /* Frameworks */,
@@ -82,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = FriendFacenew;
+			name = Friendface;
 			productName = FriendFacenew;
-			productReference = 54A814CF2AC8D29B00734EDD /* FriendFacenew.app */;
+			productReference = 54A814CF2AC8D29B00734EDD /* Friendface.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54A814CA2AC8D29B00734EDD /* Build configuration list for PBXProject "FriendFacenew" */;
+			buildConfigurationList = 54A814CA2AC8D29B00734EDD /* Build configuration list for PBXProject "Friendface" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54A814CE2AC8D29B00734EDD /* FriendFacenew */,
+				54A814CE2AC8D29B00734EDD /* Friendface */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +165,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A814D52AC8D29B00734EDD /* ContentView.swift in Sources */,
-				54A814D32AC8D29B00734EDD /* FriendFacenewApp.swift in Sources */,
+				54A814E32AC8D2CF00734EDD /* DataController.swift in Sources */,
+				54A814E12AC8D2BD00734EDD /* UserView.swift in Sources */,
+				54A814E72AC8D2EA00734EDD /* Friend.swift in Sources */,
+				54A814FA2AC8E45800734EDD /* CachedUser+CoreDataClass.swift in Sources */,
+				54A814FD2AC8E45800734EDD /* CachedFriend+CoreDataProperties.swift in Sources */,
+				54A814E52AC8D2E300734EDD /* User.swift in Sources */,
+				54A814EA2AC8D33200734EDD /* Friendface.xcdatamodeld in Sources */,
+				54A814FB2AC8E45800734EDD /* CachedUser+CoreDataProperties.swift in Sources */,
+				54A814FC2AC8E45800734EDD /* CachedFriend+CoreDataClass.swift in Sources */,
+				54A814D32AC8D29B00734EDD /* FriendFaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FriendFacenew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
 				DEVELOPMENT_TEAM = Y8KJ5U265L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NikkiW.FriendFacenew;
+				PRODUCT_BUNDLE_IDENTIFIER = NikkiW.FriendFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FriendFacenew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
 				DEVELOPMENT_TEAM = Y8KJ5U265L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NikkiW.FriendFacenew;
+				PRODUCT_BUNDLE_IDENTIFIER = NikkiW.FriendFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54A814CA2AC8D29B00734EDD /* Build configuration list for PBXProject "FriendFacenew" */ = {
+		54A814CA2AC8D29B00734EDD /* Build configuration list for PBXProject "Friendface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54A814DB2AC8D29C00734EDD /* Debug */,
@@ -334,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54A814DD2AC8D29C00734EDD /* Build configuration list for PBXNativeTarget "FriendFacenew" */ = {
+		54A814DD2AC8D29C00734EDD /* Build configuration list for PBXNativeTarget "Friendface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54A814DE2AC8D29C00734EDD /* Debug */,
@@ -344,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54A814E82AC8D33200734EDD /* Friendface.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54A814E92AC8D33200734EDD /* Friendface.xcdatamodel */,
+			);
+			currentVersion = 54A814E92AC8D33200734EDD /* Friendface.xcdatamodel */;
+			path = Friendface.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 54A814C72AC8D29B00734EDD /* Project object */;
 }
