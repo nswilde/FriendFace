@@ -51,7 +51,7 @@ struct ContentView: View {
                 updateCache(with: users)
             }
         } catch {
-            print("Download  failed")
+            print("Download failed")
         }
     }
     
